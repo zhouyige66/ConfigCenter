@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: default.yml
+    include: default
 user:
   name: api_pre
   password: 123456
