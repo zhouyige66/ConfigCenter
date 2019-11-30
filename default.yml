@@ -1,0 +1,10 @@
+server:
+  names:
+    eureka: server_eureka
+    config: server_config_center
+    gateway: server_zuul_gateway
+    api: server_api
+    api2: server_api2
+    mq: server_mq
+    job: server_job
+    cache: server_cache_test
