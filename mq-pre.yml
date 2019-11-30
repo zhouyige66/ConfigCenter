@@ -1,6 +1,3 @@
-spring:
-  profiles:
-    include: default
 user:
   name: api_pre
   password: 123456
