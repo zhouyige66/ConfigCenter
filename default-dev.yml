@@ -1,5 +1,5 @@
 server:
-  names:
+  name:
     eureka: server_eureka
     config: server_config_center
     gateway: server_zuul_gateway
@@ -8,3 +8,12 @@ server:
     mq: server_mq
     job: server_job
     cache: server_cache_test
+  port:
+    eureka: 10000
+    config: 10001
+    gateway: 10002
+    api: 10003
+    api2: 10004
+    mq: 10005
+    job: 10006
+    cache: 10007
